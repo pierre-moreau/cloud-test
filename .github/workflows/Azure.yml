@@ -1,0 +1,27 @@
+name: Azure Python 3.9.14
+
+on:
+  push:
+    branches: [ "main" ]
+    
+jobs:
+
+  build:
+  
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python 3.9.14
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.9.14"
+    - name: Install dependencies
+      run: |
+        make install
+    - name: Lint
+      run: |
+        make lint
+    - name: Test
+      run: |
+        make test
