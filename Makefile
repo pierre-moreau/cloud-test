@@ -6,7 +6,9 @@ format:
 	black *.py
 
 lint:
-	pylint main.py
+	pylint --disable=R,C main.py
 
 test:
 	python -m pytest -vv --cov=main test_main.py
+
+all: install black lint test
