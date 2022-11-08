@@ -1,4 +1,7 @@
 # cloud-test
+
+[![Azure](https://github.com/pierre-moreau/cloud-test/actions/workflows/Azure.yml/badge.svg)](https://github.com/pierre-moreau/cloud-test/actions/workflows/Azure.yml)
+
 This is to test continuous integration on several cloud environments.
 
 Screenshot from Azure:
