@@ -2,7 +2,7 @@
 
 [![Azure](https://github.com/pierre-moreau/cloud-test/actions/workflows/Azure.yml/badge.svg)](https://github.com/pierre-moreau/cloud-test/actions/workflows/Azure.yml) [![AWS Python 3.7.10](https://github.com/pierre-moreau/cloud-test/actions/workflows/AWS.yml/badge.svg)](https://github.com/pierre-moreau/cloud-test/actions/workflows/AWS.yml) [![Google Cloud Python 3.9.2](https://github.com/pierre-moreau/cloud-test/actions/workflows/Google.yml/badge.svg)](https://github.com/pierre-moreau/cloud-test/actions/workflows/Google.yml)
 
-This is to test continuous integration on several cloud environments.
+This is to test continuous integration on several cloud environments. This is directly inspired from [this repository](https://github.com/noahgift/github-actions-demo).
 
 Screenshot from Azure:
 
